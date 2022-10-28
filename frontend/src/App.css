@@ -1,0 +1,48 @@
+.main_page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1080px;
+  width: 100%;
+  margin: auto;
+}
+
+.login_page {
+  max-width: 1080px;
+  width: 100%;
+  margin: auto;
+}
+
+.block {
+  border: 1px solid black;
+}
+
+.profile_pic {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.user_block {
+  max-width: 33%;
+  width: 100%;
+}
+
+.info_block {
+  max-width: 66%;
+  width: 100%;
+}
+
+.chart_img {
+  max-width: 500px;
+  max-height: 500px;
+  height: 100%;
+  width: 100%;
+}
+
+.chart_block {
+  display: flex;
+  flex-flow: row nowrap;
+  max-width: 66%;
+  width: 100%;
+}
