@@ -1,14 +1,4 @@
-import React from "react";
-
-export const LoginTitle = () => {
-  return (
-    <div className="login_title">
-      <h1>Б Ю Д Ж Е Т</h1>
-    </div>
-  );
-};
-
-export const LoginDescr = () => {
+export const LoginDescription = () => {
   return (
     <div className="login_description">
       <div className="description_block">
@@ -35,14 +25,6 @@ export const LoginDescr = () => {
       <a className="description_register" href="#">
         Зарегистрироваться
       </a>
-    </div>
-  );
-};
-
-export const LoginForm = () => {
-  return (
-    <div>
-      <p>Форма</p>
     </div>
   );
 };

@@ -1,40 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import {
-  createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
 } from "react-router-dom";
-import "./index.css";
+import router from './App/App';
 import reportWebVitals from "./reportWebVitals";
-import MainPage from "./Pages/MainPage";
-import { LoginPage } from "./Pages/LoginPage";
-import { NotFoundPage } from "./Pages/NotFoundPage";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <MainPage />,
-  },
-  {
-    path: "/login",
-    element: (
-      <div>
-        <LoginPage />
-      </div>
-    ),
-  },
-  {
-    path: "*",
-    element: (
-      <div>
-        <NotFoundPage />
-        <Link to="/">Перейти на главную страницу</Link>
-      </div>
-    ),
-  },
-]);
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

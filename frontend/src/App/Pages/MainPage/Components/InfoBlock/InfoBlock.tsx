@@ -1,12 +1,5 @@
-import React from "react";
-import Info from "./Info";
-import {
-  incomeOpt,
-  expensesOpt,
-  expensesSum,
-  incomeSum,
-  subtract,
-} from "../var";
+import { expensesOpt, expensesSum, incomeOpt, incomeSum, subtract } from '../../../../../var';
+import Info from '../Info/Info';
 
 const balanceSum: number = subtract(incomeSum, expensesSum);
 

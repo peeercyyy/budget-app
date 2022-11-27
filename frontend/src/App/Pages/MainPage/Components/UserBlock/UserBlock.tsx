@@ -1,6 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom";
-
 function UserBlock(props: any) {
   return (
     <div className="block user user_block">

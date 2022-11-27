@@ -1,8 +1,7 @@
-import React from "react";
-import "../App.css";
-import { InfoBlock } from "../Components/InfoBlock";
-import { Chart } from "../Components/Chart";
-import UserBlock from "../Components/UserBlock";
+import "./MainPage.css";
+import { Chart } from "./Components/Chart/Chart";
+import UserBlock from "./Components/UserBlock/UserBlock";
+import { InfoBlock } from './Components/InfoBlock';
 
 const MainPage = () => {
   return (
